@@ -6,7 +6,7 @@
   "scripts": {
     "generate-mock-data": "node src/generateMockData",
     "prestart": "npm run generate-mock-data",
-    "start": "json-server --watch src/db.json --port 3001"
+    "start": "json-server --host 192.168.1.148 --watch src/db.json --port 3001"
   },
   "repository": {
     "type": "git",
